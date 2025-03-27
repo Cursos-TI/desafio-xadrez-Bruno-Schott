@@ -115,7 +115,7 @@ int main() {
                 break;
         }
 
-        // pausa antes de retornar ao menu (opcional)
+        // pausa antes de retornar ao menu
         if (continuar) {
             printf("\nPressione Enter para continuar...");
             while (getchar() != '\n');  // limpa o buffer do teclado
